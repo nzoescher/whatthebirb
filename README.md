@@ -2,7 +2,7 @@
 
 Bilderkennung für heimische Vogelarten mit Deep Learning. Das Modell erkennt anhand eines Fotos, welche von sieben in Deutschland häufigen Gartenvögeln zu sehen ist.
 
-![Confusion Matrix](images/confusion_matrix.png)
+Beispiele der verwendeten Bilder finden sich in der [Projektbeschreibung](WhatTheBirdBeschreibung.pdf) (Kapitel 2).
 
 ## Überblick
 
@@ -35,11 +35,6 @@ Mit nur einigen tausend Bildern lernt ein Netz von Grund auf deutlich schlechter
 
 ## Ergebnisse
 
-| Metrik | Wert |
-| --- | --- |
-| Testgenauigkeit | [X] % |
-| Epochen bis Early Stopping | [X] |
-
-[Beispielbilder mit Vorhersage einfügen, z. B. `images/beispiele.png`]
+Das Modell erreicht eine Gesamtgenauigkeit von rund 75 %. Die Werte unterscheiden sich dabei deutlich zwischen den Arten: Amsel, Kohlmeise und Blaumeise werden sehr zuverlässig erkannt, die Amsel sogar zu 100 %.
 ```
 
